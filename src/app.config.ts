@@ -2,8 +2,8 @@ export default defineAppConfig({
 
   //全局页面路径
   pages: [
-    'pages/index/index'
-  ],
+  'pages/index/index', "pages/com/index"],
+
   //全局页面配置
 
   window: {
@@ -12,4 +12,4 @@ export default defineAppConfig({
     navigationBarTitleText: 'WeChat',
     navigationBarTextStyle: 'white'
   }
-})
+});
